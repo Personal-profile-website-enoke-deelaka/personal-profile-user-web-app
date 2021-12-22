@@ -1,0 +1,17 @@
+.main-outer-header-left-content-personal-profile-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+
+  h1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color: #202020;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    margin: 0 0 0 30px;
+    cursor: pointer;
+  }
+}
