@@ -1,0 +1,23 @@
+.main-outer-positive-feedbacks-personal-profile-header {
+  width: 100%;
+  padding: 0 0 35px 0;
+
+  h1 {
+    font-size: 45px;
+    display: block;
+    color: rgb(0, 10, 45);
+    font-weight: 600;
+    font-family: Rufina, serif;
+    max-width: 650px;
+    line-height: 55px;
+    padding: 0 75px 0 75px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .main-outer-positive-feedbacks-personal-profile-header {
+    h1 {
+      padding: 0 25px 0 25px;
+    }
+  }
+}

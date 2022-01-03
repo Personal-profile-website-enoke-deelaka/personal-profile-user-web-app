@@ -1,24 +1,25 @@
 <div class="main-outer-app-home-page-personal-profile-main-slider">
   <div class="row" style="margin: 0">
-    <div class="col" style="width: 50%">
+    <div class="col home-page-personal-profile-main-slider-col-left">
       <div class="home-page-personal-profile-main-slider-left-content">
-        <div class="loader">
-
-        </div>
+        <div class="loader"></div>
         <p class="home-page-main-slider-Paragraph-topic">GET EVERY SINGLE SOLUTIONS</p>
-        <h1>I'm a Software <br> Engineer <br> M.K Enoke Deelaka</h1>
-        <p class="home-page-main-slider-Paragraph-desc">Hello, How are you ? Hope you all doing well. I specialize in front-end application <br> development and a designer with a keen eye for creating engaging UI, bringing <br> products to life.</p>
-        <button class="home-page-main-slider-Learn-more-button"   mat-flat-button color="primary">Learn More</button>
+        <h1>Software <br> Engineer <br> M.K Enoke Deelaka</h1>
+        <p class="home-page-main-slider-Paragraph-desc">Hello, How are you ? Hope you all doing well. I specialize in
+          front-end application development and a designer with a keen eye for creating engaging UI, bringing products
+          to life.</p>
+        <button class="home-page-main-slider-Learn-more-button" mat-flat-button color="primary">Learn More</button>
         <button class="home-page-main-slider-hire-me-button" mat-flat-button color="primary">Hire Me</button>
       </div>
     </div>
-    <div class="col" style="width: 50%;height: 100%">
+    <div class="col home-page-personal-profile-main-slider-col-right">
       <div style="width: 100%;height: 100%;">
         <owl-carousel-o [options]="customOptions">
           <ng-container *ngFor="let slide of advertisements">
             <ng-template carouselSlide style="">
               <div style="height: 535px;width: 415px;margin-left: auto;margin-right: auto">
-                <div style="width: 100%;height: 100%;" [ngStyle]="{'background': 'url(' + slide + ')', 'backgroundSize':'100% 100%'}"></div>
+                <div style="width: 100%;height: 100%;"
+                     [ngStyle]="{'background': 'url(' + slide + ')', 'backgroundSize':'100% 100%'}"></div>
               </div>
             </ng-template>
           </ng-container>

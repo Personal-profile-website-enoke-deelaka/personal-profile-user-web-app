@@ -1,0 +1,98 @@
+.main-outer-content-what-services-you-will-personal-profile {
+  width: 100%;
+}
+
+.content-what-services-you-will-personal-profile-icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  background: #fff4f4;
+}
+
+.fa-bezier-curve {
+  align-self: center;
+  font-size: 30px;
+  color: rgb(236, 91, 83);
+}
+
+.fa-mobile-alt {
+  align-self: center;
+  font-size: 30px;
+  color: rgb(236, 91, 83);
+}
+
+.fa-speaker-deck {
+  align-self: center;
+  font-size: 30px;
+  color: rgb(236, 91, 83);
+}
+
+.content-what-services-you-will-get-header-text {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  display: block;
+  font-family: Rufina, serif;
+  color: #1c165c;
+}
+
+.content-what-services-you-will-get-paragraph {
+  color: #57667e;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.content-what-services-you-will-personal-profile-icon-circle-div {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.content-what-services-you-will-personal-profile-col {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #e1ebf7;
+  margin-right: 15px;
+}
+
+.content-what-services-you-will-personal-profile-col:hover {
+  background-color: #FF3D1C;
+  transition: all .4s ease-out 0s;
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  .content-what-services-you-will-personal-profile-icon-circle-div {
+    .content-what-services-you-will-personal-profile-icon-circle {
+      color: white;
+    }
+  }
+}
+
+#col-margin {
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-what-services-you-will-personal-profile-col {
+    flex: auto;
+    margin-bottom: 20px;
+  }
+  .content-what-services-you-will-personal-profile-col {
+    margin-right: 0;
+  }
+}
+
+.example-viewport {
+  height: 550px;
+  width: 100%;
+}

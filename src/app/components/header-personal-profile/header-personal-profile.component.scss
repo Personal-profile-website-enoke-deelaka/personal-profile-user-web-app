@@ -1,4 +1,21 @@
-.main-outer-header-personal-profile{
+.main-outer-header-personal-profile {
   height: 100%;
   background-color: #FFFFFF;
+}
+
+.header-left-content-personal-profile {
+  width: 28%;
+}
+
+.header-right-content-personal-profile {
+  width: 72%;
+}
+
+@media only screen and (max-width: 950px) {
+  .header-left-content-personal-profile {
+    width: 60%;
+  }
+  .header-right-content-personal-profile {
+    width: 40%;
+  }
 }

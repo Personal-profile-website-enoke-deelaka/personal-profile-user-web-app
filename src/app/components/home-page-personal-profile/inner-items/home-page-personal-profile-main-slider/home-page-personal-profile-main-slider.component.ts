@@ -9,8 +9,8 @@ import {OwlOptions} from "ngx-owl-carousel-o";
 export class HomePagePersonalProfileMainSliderComponent implements OnInit {
   advertisements: any[] = [
     '/assets/Images/Enoke1.png',
-    '/assets/Images/Enoke2.png',
-    '/assets/Images/Enoke3.png',
+    // '/assets/Images/Enoke2.png',
+    // '/assets/Images/Enoke3.png',
     // 'https://m.media-amazon.com/images/I/61TD5JLGhIL._SX3000_.jpg',
     // 'https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg',
     // // 'https://m.media-amazon.com/images/I/61BvxKSpy3L._SX3000_.jpg',

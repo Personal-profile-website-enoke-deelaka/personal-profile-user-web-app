@@ -1,0 +1,94 @@
+.main-outer-positive-feedbacks-personal-profile-content {
+  width: 100%;
+  padding: 0 70px 0 70px;
+}
+
+.positive-feedbacks-personal-profile-content-col {
+  height: 340px;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(240, 240, 240);
+  border-image: initial;
+  border-radius: 5px;
+  padding: 40px 0 0 0;
+  background: rgb(255, 255, 255);
+  margin: 0 15px 0 15px;
+  //min-width: 256px;
+
+}
+
+.positive-feedbacks-personal-profile-content-col-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40%;
+}
+
+.positive-feedbacks-personal-profile-content-col-header-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 25px;
+
+
+  h1 {
+    color: #ec5b53;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Rufina", serif;
+    line-height: 40px;
+  }
+
+  p {
+    color: #57667e;
+    font-weight: 300;
+    font-size: 14px;
+  }
+}
+
+.positive-feedbacks-personal-profile-content-col-content {
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  p {
+    font-family: "Rubik", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    max-width: 280px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .positive-feedbacks-personal-profile-content-col {
+    margin-top: 15px;
+  }
+  #positive-feedbacks-personal-profile-content-col-3 {
+    flex: auto;
+  }
+  .positive-feedbacks-personal-profile-content-col-content {
+    padding: 0 10px 0 10px;
+  }
+  .main-outer-positive-feedbacks-personal-profile-content {
+    padding: 0 40px 0 40px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #positive-feedbacks-personal-profile-content-col-2 {
+    flex: auto;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .main-outer-positive-feedbacks-personal-profile-content {
+    padding: 0 25px 0 25px;
+  }
+  .positive-feedbacks-personal-profile-content-col {
+    margin: 15px 0 0 0;
+  }
+}

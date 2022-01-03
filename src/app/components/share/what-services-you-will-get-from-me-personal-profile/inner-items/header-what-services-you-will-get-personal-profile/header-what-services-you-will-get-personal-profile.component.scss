@@ -1,0 +1,21 @@
+.main-outer-header-what-services-you-will-get-personal-profile {
+  margin: 0 0 50px 0;
+  padding: 100px 0 0 0;
+
+  h1 {
+    font-size: 45px;
+    display: block;
+    color: rgb(0, 10, 45);
+    font-weight: 600;
+    font-family: Rufina, serif;
+    line-height: 45px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-outer-header-what-services-you-will-get-personal-profile {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
